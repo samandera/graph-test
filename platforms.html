@@ -1,0 +1,20 @@
+<div class="page-wrapper" ng-controller="DevicesData">
+	<div ng-if="!detailsVisible" class="single-item">
+		<div class="chart-wrapper platforms">
+			<div class="icon"></div>
+			<pie-chart data="platformsData" options="platformOptions" ng-click="showDetails()"></pie-chart>
+		</div>
+	</div>
+	<div ng-if="detailsVisible" class="items">
+		<div class="chart-wrapper desktop">
+			<div class="icon"></div>
+			<pie-chart data="desktopData" options="desktopOptions" ng-click="hideDetails()"></pie-chart>
+		</div>
+	</div>
+	<div ng-if="detailsVisible" class="items">
+		<div class="chart-wrapper mobile">
+			<div class="icon"></div>
+			<pie-chart data="mobileData" options="mobileOptions" ng-click="hideDetails()"></pie-chart>
+		</div>
+	</div>
+</div>

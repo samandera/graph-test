@@ -1,0 +1,26 @@
+{
+	"desktop": [
+		{
+			"os":"linux",
+			"users":23443
+		},
+		{
+			"os":"windows",
+			"users":13241234
+		}
+	],
+	"mobile": [
+		{
+			"os":"linux",
+			"users":12341234
+		},
+		{
+			"os":"windows",
+			"users":2345
+		},
+		{
+			"os":"mac",
+			"users":12344
+		}
+	]
+}

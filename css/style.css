@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Play';
+  src: url('../resources/Play-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Play';
+  src: url('../resources/Play-Bold.ttf');
+  font-weight: bold;
+}
+
+html {
+	background: url("../resources/background.jpg") left center no-repeat;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	background-attachment:fixed;
+}
+
+body {
+	font-family: 'Play';
+	font-size:14px;
+	color:#ffffff;
+	padding:0 20px;
+}
+header {
+	height: 7em;
+	position: relative;
+	margin:0.67em 0;
+}
+h1 {
+	font-size:1.8em;
+	text-align: center;
+	font-weight: normal;
+	position:absolute;
+	width:100%;	
+	top: 50%;
+	transform: translateY(-50%);
+	margin:0;
+}
+
+.page-wrapper {
+	position:absolute;
+	top:8.35em;
+	bottom:0;
+	left:0;
+	right:0;
+	height:auto;
+}
+
+
+.single-item {
+	height:100%;
+	width:100%;
+	position:relative;
+}
+.items {
+	height:50%;
+	min-height:200px;
+	width:100%;
+	position:relative;
+}
+
+
+.chart {
+  width: 100%;
+  min-height:320px;
+}
+
+.chart-wrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+}
+
+.platforms .icon {
+  background-image: url("../resources/platforms.png");
+  left: calc(50% - 35px);
+  top: calc(50% - 35px);
+  width: 70px;
+  height: 70px;
+}
+
+.desktop .icon {
+  background-image: url("../resources/desktop.png");
+}
+
+.mobile .icon {
+  background-image: url("../resources/mobile.png");
+}
+
